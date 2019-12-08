@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Tamagochi</title>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="style.css">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <script defer src="script.js"></script>
+   </head>
+   <body>
+      <section class="main-section">
+         <h1>Choose your pet</h1>
+         <button id="main-button1">
+         Lazy pug (hard level)
+         </button>
+         <button id="main-button2">
+         Fluffy kitty (easy level)
+         </button>
+         <button id="main-button3">
+         Ninja (hard level)
+         </button>
+      </section>
+      <section class="wrapper">
+         <div id="second">
+            0
+         </div>
+         <div class="img-block">
+            <img src="img/happymops.jpg" class="pet" id="pet" alt="imagem">
+         </div>
+         <div class="stats">
+            <div class="stats__percent">
+               <h2>Status</h2>
+               <span> Food:</span>
+               <div id="food" class="bar">
+                  In progress
+               </div>
+               <span>Clean: </span>
+               <div id="clean" class="bar">In progress</div>
+               <span> Happiness: </span>
+               <div id="happiness" class="bar"> In progress</div>
+               <span> Health: </span>
+               <div id="health" class="bar"> In progress</div>
+               <span> Socialization: </span>
+               <div id="social" class="bar"> In progress</div>
+               <span> Money: </span>
+               <div id="money" class="bar"> In progress</div>
+
+            </div>
+            <div class="add-stats">
+               <div class="add-stats--flex-column">
+               <h2>Actions</h2>
+               <button class="add-stats__button" onclick="Eat()" id="eat">Eat</button>
+               <button class="add-stats__button" onclick="Wash()" id="wash">Wash</button>
+               <button class="add-stats__button" onclick="Run()" id="walk">Run</button>
+               <button class="add-stats__button" onclick="Doc()" id="doc">Visit doctor</button>
+               <button class="add-stats__button" onclick="Bar()" id="bar">Go to bar</button>
+               <button class="add-stats__button" onclick="Work()" id="work">Go to work</button>
+               <button class="add-stats__button" onclick="Market()" id="market">Buy food</button>
+               <button class="add-stats__button" onclick="Business()" id="business">Start a business</button>
+               </div>
+            </div>
+         </div>
+         <div id="run"></div>
+         <div class="restart-button">
+            <span id="reload" onclick="location.reload()">Restart</span>
+         </div>
+         </div>
+      </section>
+
+      <section class="wrapper-2">
+         <div id="secondс">
+            0
+         </div>
+         <div class="img-block">
+            <img src="img/cat1.jpg" class="pet" id="petc" alt="imagem">
+         </div>
+         <div class="stats">
+            <div class="stats__percent">
+               <h2>Status</h2>
+               <span> Food:</span>
+               <div id="foodc" class="bar">
+                  In progress
+               </div>
+               <span>Clean: </span>
+               <div id="cleanc" class="bar">In progress</div>
+               <span> Happiness: </span>
+               <div id="happinessc" class="bar"> In progress</div>
+               <span> Health: </span>
+               <div id="healthс" class="bar"> In progress</div>
+               <span> Socialization: </span>
+               <div id="socialс" class="bar"> In progress</div>
+               <span> Money: </span>
+               <div id="moneyс" class="bar"> In progress</div>
+            </div>
+            <div class="add-stats">
+               <h2>Actions</h2>
+               <button class="add-stats__button" onclick="Eatc()" id="eatc">Eat</button>
+               <button class="add-stats__button" onclick="Washc()" id="washc">Wash</button>
+               <button class="add-stats__button" onclick="Runc()" id="walkc">Run</button>
+               <button class="add-stats__button" onclick="Docс()" id="docс">Visit doctor</button>
+               <button class="add-stats__button" onclick="Barс()" id="barс">Go to bar</button>
+               <button class="add-stats__button" onclick="Workс()" id="workс">Go to work</button>
+               <button class="add-stats__button" onclick="Marketс()" id="marketс">Buy food</button>
+               <button class="add-stats__button" onclick="Businessс()" id="businessс   ">Start a business</button>
+               </div>
+            </div>
+         </div>
+         <div id="runc"></div>
+         <div class="restart-button">
+            <span id="reloadc" onclick="location.reload()">Restart</span>
+         </div>
+         </div>
+      </section>
+      <section class="wrapper-3">
+         <div id="secondsn">
+            0
+         </div>
+         <div class="img-block">
+            <img src="img/hero.png" class="pet" id="petn" alt="imagem">
+         </div>
+         <div class="stats">
+            <div class="stats__percent">
+               <h2>Status</h2>
+               <span> Food:</span>
+               <div id="foodn" class="bar">
+                  In progress
+               </div>
+               <span>Clean: </span>
+               <div id="cleann" class="bar">In progress</div>
+               <span> Happiness: </span>
+               <div id="happinessn" class="bar"> In progress</div>
+               <span> Health: </span>
+               <div id="healthn" class="bar"> In progress</div>
+               <span> Socialization: </span>
+               <div id="socialn" class="bar"> In progress</div>
+               <span> Money: </span>
+               <div id="moneyn" class="bar"> In progress</div>
+            </div>
+            <div class="add-stats">
+               <h2>Actions</h2>
+               <button class="add-stats__button" onclick="Eatn()" id="eatn">Eat</button>
+               <button class="add-stats__button" onclick="Washn()" id="washn">Wash</button>
+               <button class="add-stats__button" onclick="Runn()" id="walkn">Run</button>
+               <button class="add-stats__button" onclick="Docn()" id="docn">Visit doctor</button>
+               <button class="add-stats__button" onclick="Barn()" id="barn">Go to bar</button>
+               <button class="add-stats__button" onclick="Workn()" id="workn">Go to work</button>
+               <button class="add-stats__button" onclick="Marketn()" id="marketn">Buy food</button>
+               <button class="add-stats__button" onclick="Businessn()" id="businessn   ">Start a business</button>
+               </div>
+            </div>
+         </div>
+         <div id="runn"></div>
+         <div class="restart-button">
+            <span id="reloadn" onclick="location.reload()">Restart</span>
+         </div>
+         </div>
+      </section>
+
+   </body>
+</html>
